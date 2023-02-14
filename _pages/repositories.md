@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: 标题3-存储库
+title: Repos
 description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
-## GitHub users
+## 本渣的Github账户
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -19,9 +19,19 @@ nav_order: 3
 
 ---
 
-## GitHub Repositories
+## 本渣最近在关注的repos
 
-{% if site.data.repositories.github_repos %}
+{% if site.data.repositories.github_repos_blog %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos %}
+    {% include repository/repo.html repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
+## 本渣在用/将用的PT相关repos
+
+{% if site.data.repositories.github_repos_pt %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.html repository=repo %}

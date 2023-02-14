@@ -1,12 +1,17 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - KeepNaivety3
 
-github_repos:
+github_repos_blog:
   - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - iAvoe/x264-x265-QAAC-ffprobe-Ultimatetutorial
+  - jellyfin/jellyfin
+  - nilaoda/BBDown
+  - kookxiang/jellyfin-plugin-bangumi
+
+github_repos_pt:
+  - pt-plugins/PT-Plugin-Plus
+  - ledccn/IYUUPlus
+  - tomorrow505/auto_feed_js
+  - N3xusHD/MovieInfoGen
+  - tongyifan/TJUPT-Anime-Autoseed
+  - KeepNaivety3/BYR-template
