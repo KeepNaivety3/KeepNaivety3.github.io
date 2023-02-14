@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 博客自带文章的翻译
-date: 2023-02-14 17:00:00
+date: 2023-02-13 17:00:00
 description: 翻译一下自带的 po 文内容
 tags: translate blogging
 categories: blog
