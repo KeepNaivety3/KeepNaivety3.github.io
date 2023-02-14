@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repos
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: star了那些项目，列一列
 nav: true
 nav_order: 2
 ---
@@ -39,6 +39,17 @@ nav_order: 2
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos_pt %}
+    {% include repository/repo.html repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
+## 奇奇怪怪的 repos
+
+{% if site.data.repositories.github_repos_nazo %}
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos_nazo %}
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>

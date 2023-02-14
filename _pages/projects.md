@@ -2,7 +2,7 @@
 layout: page
 title: 项目
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 项目展示的demo，还没研究明白
 nav: true
 nav_order: 3
 display_categories: [work, fun]
