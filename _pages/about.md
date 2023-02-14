@@ -2,7 +2,7 @@
 layout: about
 title: 关于
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 记录美好生活~
 
 profile:
   align: right
