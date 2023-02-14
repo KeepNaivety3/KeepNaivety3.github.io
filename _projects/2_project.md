@@ -2,7 +2,7 @@
 layout: page
 title: project 2
 description: a project with a background image
-img: assets/img/3.jpg
+img: assets/img/project_preview/100868335_p0.jpg
 importance: 2
 category: work
 ---

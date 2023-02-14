@@ -2,7 +2,7 @@
 layout: page
 title: project 6
 description: a project with no image
-img:
+img: assets/img/project_preview/101638297_p9.jpg
 importance: 4
 category: fun
 ---
