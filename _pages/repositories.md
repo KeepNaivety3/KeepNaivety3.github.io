@@ -23,7 +23,7 @@ nav_order: 2
 
 {% if site.data.repositories.github_repos_blog %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
+  {% for repo in site.data.repositories.github_repos_blog %}
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
@@ -33,7 +33,7 @@ nav_order: 2
 
 {% if site.data.repositories.github_repos_pt %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
+  {% for repo in site.data.repositories.github_repos_pt %}
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
