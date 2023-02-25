@@ -1,152 +1,138 @@
 ---
 layout: post
-title: 博客自带文章的翻译
+title: 博客自带功能
 date: 2023-02-13 17:00:00
-description: 翻译一下自带的 po 文内容
+description: 整理一下blog自带的功能
 tags: translate blogging
 categories: blog
 ---
 
-# a post with formatting and links
+## 格式和链接
 
-march & april, looking forward to summer
+### 文本超链接
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+<a href="https://zh.wikipedia.org/wiki/Markdown">维基百科 Markdown 词条
 
-#### Hipster list
+### 列表
 
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li>後藤ひとり</li>
+    <li>伊地知虹夏</li>
+    <li>山田リョウ</li>
+    <li>喜多郁代</li>
+    <li>後藤ふたり</li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+### 水平分割线
 
 <hr>
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+### 块引用
 
 <blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
+乐队……那是阴暗角色也能闪耀起来的唯一地方。
+“波奇酱”，也就是后藤一里，是一个爱着吉他的孤独少女。每天在家中一个人寂寞的弹吉他就是她的日常，机缘巧合之下她加入了伊地知虹夏所组建的“结束乐队”。不习惯在观众面前演奏的后藤究竟能否成为一个优秀的乐队成员呢！？这是一份推送给孤独少年少女们的，最热血的音乐漫画！！
+バンド活動に憧れているが人見知りがひどく、高校に入ってから1カ月経つも友達が1人もできない少女・後藤ひとりを主役に展開する音楽作品。
 </blockquote>
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+## 图片画廊
 
-```markdown
-# a post with formatting and links
-
-march & april, looking forward to summer
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
-
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
-<hr>
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
-```
-
-# a post with images
-
-This is an example post with image galleries.
+### 图片并排显示
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/9.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/example_preview/Yagate_Kimi_ni_Naru_vol1_1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/7.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/example_preview/Yagate_Kimi_ni_Naru_vol1_2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    图像标题位
 </div>
 
-Images can be made zoomable.
-Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
+### 添加 data-zoomable 使图片可缩放
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/example_preview/101044191_p0.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-The rest of the images in this post are all zoomable, arranged into different mini-galleries.
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/11.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/example_preview/Bocchi_the_Rock_all.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/12.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/7.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-```markdown
-# a post with images
-
-This is an example post with image galleries.
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/9.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/7.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/example_preview/Lycoris_Recoil_vol01.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    添加 zoomable=true 使图片可缩放
 </div>
 
-Images can be made zoomable.
-Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
+## 代码块
+
+### 输出原生 liquid 代码
+
+{% raw  %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/example_preview/Yagate_Kimi_ni_Naru_vol1_1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/example_preview/Yagate_Kimi_ni_Naru_vol1_2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-The rest of the images in this post are all zoomable, arranged into different mini-galleries.
+{% endraw %}
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/11.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/12.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_preview/7.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-```
+### 显示一段 C++ 代码
+
+关键词 linenos 触发行号的显示：
+
+{% highlight c++ linenos %}
+
+int main(int argc, char const \*argv[])
+{
+string myString;
+
+    cout << "input a string: ";
+    getline(cin, myString);
+    int length = myString.length();
+
+    char charArray = new char * [length];
+
+    charArray = myString;
+    for(int i = 0; i < length; ++i){
+        cout << charArray[i] << " ";
+    }
+
+    return 0;
+
+}
+
+{% endhighlight %}
+
+## 数学公式
+
+支持使用 MathJax3 引擎显示数学公式
+
+### 内联公式
+
+$ E = mc^2 $（即质能守恒，亦称为质能转换公式、质能方程）是一种阐述能量（$ E $）与质量（$ m $）间相互关系的理论物理学公式，公式中的 $ c $ 是物理学中代表光速的常数。
+
+### 单行显示
+
+$$
+\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2
+$$
+
+### 使用 {equation} 显示数学公式
+
+如果使用 `\begin{equation}...\end{equation}`，MathJax 会自动对等式进行编号：
+
+\begin{equation}
+\label{eq:cauchy-schwarz}
+\left( \sum*{k=1}^n a_k b_k \right)^2 \leq \left( \sum*{k=1}^n a*k^2 \right) \left( \sum*{k=1}^n b_k^2 \right)
+\end{equation}
+
+通过 `\label{...}`，我们现在可以使用标签 `\eqref` 引用方程。

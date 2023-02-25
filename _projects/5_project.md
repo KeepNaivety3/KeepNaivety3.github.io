@@ -2,7 +2,7 @@
 layout: page
 title: project 5
 description: a project with a background image
-img: assets/img/project_preview/101044191_p0.jpg
+img: assets/img/example_preview/101044191_p0.jpg
 importance: 3
 category: fun
 ---
