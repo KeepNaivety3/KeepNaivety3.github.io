@@ -120,7 +120,7 @@ string myString;
 
 $$ E = mc^2 $$（即质能守恒，亦称为质能转换公式、质能方程）是一种阐述能量（$$ E $$）与质量（$$ m $$）间相互关系的理论物理学公式，公式中的 $$ c $$ 是物理学中代表光速的常数。
 
-### 单行显示
+### 行间公式
 
 $$
 \sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2
@@ -136,3 +136,16 @@ $$
 \end{equation}
 
 通过 `\label{...}`，我们现在可以使用标签 `\eqref` 引用方程。
+
+## Twitter 预览
+
+显示一篇推文：
+
+{% twitter https://twitter.com/_sa_220/status/1550686471366926336 %}
+
+显示推主的时间线：
+
+{% twitter https://twitter.com/_sa_220 maxwidth=800 limit=3 %}
+
+更多内容请参考：[jekyll-twitter-plugin](https://github.com/rob-murray/jekyll-twitter-plugin)
+
