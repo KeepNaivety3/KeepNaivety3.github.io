@@ -2,7 +2,7 @@
 layout: page
 title: 项目
 permalink: /projects/
-description: 项目展示的demo，还没研究明白
+description: 项目展示的demo，如果加载的图片很大则需要好一点的cdn
 nav: true
 nav_order: 3
 display_categories: [work, fun]
